@@ -6,6 +6,10 @@ Esta es la pagina de inicio de nuestro repositorio. Está escrita en un lenguaje
 
 
 
+## Planificación de la Asignatura
+
+![title](Información/Planificación 2025-1.png)
+
 ## Material complementario
 
 * [Introducción a HTML](https://developer.mozilla.org/es/docs/Web/HTML)
