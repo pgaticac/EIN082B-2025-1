@@ -8,7 +8,7 @@ Esta es la pagina de inicio de nuestro repositorio. Está escrita en un lenguaje
 
 ## Planificación de la Asignatura
 
-![Planificación 2025]("Información/Planificación 2025-1.png")
+![Planificación 2025](https://github.com/pgaticac/EIN082B-2025-1/blob/master/Informaci%C3%B3n/Planificaci%C3%B3n%202025-1.png?raw=true)
 
 ## Material complementario
 
