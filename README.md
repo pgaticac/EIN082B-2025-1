@@ -8,7 +8,7 @@ Esta es la pagina de inicio de nuestro repositorio. Está escrita en un lenguaje
 
 ## Planificación de la Asignatura
 
-![Planificación 2025](Información/Planificación 2025-1.png)
+![Planificación 2025]("Información/Planificación 2025-1.png")
 
 ## Material complementario
 
