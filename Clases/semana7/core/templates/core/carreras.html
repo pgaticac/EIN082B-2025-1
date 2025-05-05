@@ -1,0 +1,11 @@
+{%extends 'core/base.html'%}
+
+{% block contenido%}
+<ul>
+    {% for carrera in carreras %}
+    <li>{{carrera.nombre}}, {{carrera.duracion}} semestres</li>
+    {% endfor %}
+</ul>
+
+
+{% endblock %}
