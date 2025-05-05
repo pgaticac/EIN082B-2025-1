@@ -1,0 +1,50 @@
+body{
+    font-family: Verdana;
+    background-color: #fff;
+}
+
+p{
+    background-color: blue;
+}
+
+#uno, #dos, #tres{
+    background-color: green;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.texto_blanco{
+    color: white;
+}
+
+div{
+    border: 1px solid #333;
+    width: 150px;
+    height: 150px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#c1{
+    background-color: #8ECAE6;
+    
+}
+#c2{
+    background-color: #219EBC;
+}
+#c3{
+    background-color: #FFB703;
+
+}
+#c4{
+    background-color: #FB8500;
+    clear: left;
+    margin-left: 320px;
+}
