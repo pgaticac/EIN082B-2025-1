@@ -1,0 +1,25 @@
+{%extends 'core/base.html'%}
+
+{% block contenido%}
+<ul>
+    {% for carrera in carreras %}
+    <li>{{carrera.nombre}}, {{carrera.duracion}} semestres   [<a href="{% url 'carreras' carrera.id %}">X</a>]</li>
+    {% endfor %}
+</ul>
+
+<h2>Nueva Carrera</h2>
+<form method="POST" action="{% url 'carreras' %}">
+    {% csrf_token %}
+    <label for="txtCodigo">Código</label>
+    <input type="text" name="txtCodigo" id="txtCodigo">
+    <br>
+    <label for="txtNombre">Nombre</label>
+    <input type="text" name="txtNombre" id="txtNombre">
+    <br>
+    <label for="txtDuracion">Duración</label>
+    <input type="number" min="1" max="12" name="txtDuracion" id="txtDuracion">
+    <br>
+    <button>Crear</button>
+</form>
+
+{% endblock %}
